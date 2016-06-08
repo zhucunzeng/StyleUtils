@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.styleutils"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ShapeActivity" android:label="Shape"></activity>
+        <activity android:name=".SelectorActivity" android:label="Selector"></activity>
+        <activity android:name=".LayerListActivity" android:label="LayerList"></activity>
+        <activity android:name=".AnimationActivity" android:label="Animation"></activity>
+        <activity android:name=".RectangleActivity" android:label="Rectangle"></activity>
+        <activity android:name=".OvalActivity" android:label="Oval"></activity>
+        <activity android:name=".LineActivity" android:label="Line"></activity>
+        <activity android:name=".RingActivity" android:label="Ring"></activity>
+    </application>
+
+</manifest>

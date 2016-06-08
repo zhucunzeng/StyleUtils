@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button 
+        android:id="@+id/btn_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_btn_selector"
+        android:text="Rectangle"
+        android:textColor="@color/text_btn_selector" />
+    
+    <Button 
+        android:id="@+id/btn_oval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_btn_selector"
+        android:text="Oval"
+        android:textColor="@color/text_btn_selector" />
+    
+    <Button 
+        android:id="@+id/btn_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_btn_selector"
+        android:text="Line"
+        android:textColor="@color/text_btn_selector" />
+    
+    <Button 
+        android:id="@+id/btn_ring"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_btn_selector"
+        android:text="Ring"
+        android:textColor="@color/text_btn_selector" />
+
+</LinearLayout>
